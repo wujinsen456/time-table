@@ -1,0 +1,112 @@
+
+div[id^="a"]{
+    position:absolute;
+    font-size:12px;
+    text-align:center;
+    width:7px;
+    height:5px;
+    top:0;
+    left: 97px;
+    transform-origin:50% 100px;
+}
+#a1{
+    transform:rotate(30deg)
+}
+#a2{
+    transform:rotate(60deg)
+}
+#a3{
+    transform:rotate(90deg)
+}
+#a4{
+    transform:rotate(120deg)
+}
+#a5{
+    transform:rotate(150deg)
+}
+#a6{
+    transform:rotate(180deg)
+}
+#a7{
+    transform:rotate(210deg)
+}
+#a8{
+    transform:rotate(240deg)
+}
+#a9{
+    transform:rotate(270deg)
+}
+#a10{
+    transform:rotate(300deg)
+}
+#a11{
+    transform:rotate(330deg)
+}
+
+#clock{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:2px solid #333;
+    position:relative;
+    background: url("../img/ba2.jpg");
+}
+#s{
+    width:2px;
+    height:110px;
+    position:absolute;
+    top:5px;
+    left:102px;
+    background-color:red;
+    transform-origin:50% 90px;
+    -webkit-animation:rotateS 60s linear infinite;
+}
+#m{
+    width:4px;
+    height:100px;
+    position:absolute;
+    top:10px;
+    left:101px;
+    background-color:#333;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transform-origin:50% 80px;
+    -webkit-animation:rotateM 3600s linear infinite;
+}
+#h{
+    width:6px;
+    height:80px;
+    position:absolute;
+    top:30px;
+    left:100px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color:#2f2f2f;
+    transform-origin:50% 70px;
+    -webkit-animation:rotateH 43200s linear infinite;
+}
+@-webkit-keyframes rotateS{
+    0%{transform:
+            rotate(0deg)
+    }
+    100%{transform:
+            rotate(360deg)
+    }
+}
+@-webkit-keyframes rotateM{
+    0%{transform:
+            rotate(0deg)
+    }
+    100%{transform:
+            rotate(360deg)
+    }
+}
+@-webkit-keyframes rotateH{
+    0%{transform:
+            rotate(0deg)
+    }
+    100%{transform:
+            rotate(360deg)
+    }
+}
+
